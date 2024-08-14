@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #172321;
+  }
+
+  @font-face {
+    font-family: "Bubblegum";
+    src: url(/Fonts/Bubblegum.ttf);
+  }
+/*text content*/
+h1 {
+  font-family: "Bubblegum";
+  color: #14322F;
+  font-size: 25px;
+}
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #DDD245;
+  font-size: 20px;
+  font-style: italic;
+}
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #14322F;
+  font-size: 20px;
+  font-weight: bolder;
+}
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #14322F;
+  font-size: 100%;
+  font-weight: bolder;
+}
+.contact {
+  color: #27F2B3;
+  font-style: normal;
+  font-weight: bold;
+}
+.hint {
+  font-family: 'Times New Roman', Times, serif;
+  color: #F9B938;
+  font-weight: bold;
+  font-size: 17px;
+}
+.quote {
+  font-family: 'Times New Roman', Times, serif;
+  color: #27F2B3;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 17px;
+}
+.defRef {
+  font-family: 'Times New Roman', Times, serif;
+  color: #14322F;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 17px; 
+}
+.def {
+  font-family: 'Times New Roman', Times, serif;
+  color: #14322F;
+  font-size: 19px;
+}
+/*App Navigation*/
+  .view {
+    display: grid;
+    column-gap: 15px;
+    row-gap: 1px;
+    background-color: #172321;
+    padding: 0px;
+    justify-content: center;
+  }
+  
+  .grid-item {
+    align-items: center;
+    align-content: center;
+
+  }
+  .item1 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    scale: 80%;
+  }
+  
+  .item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2; 
+    scale: 80%;
+  }
+
+  .item3 {
+    grid-column: 2;
+    grid-row: 1 /span 3;
+  }
+  .item4 {
+    grid-column: 1;
+    grid-row: 3 / span 2;
+    scale: 80%;
+  }
+  .item5 {
+    grid-column: 2;
+    grid-row: 3 / span 2;
+    text-align: center;
+  }
+ .item6 {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 2;
+    width: 80%;
+    height: 100%;
+  } 
+/*Dialog Stylings*/
+sl-dialog.CreativityDefinition::part(panel) {
+background-color: #F9B938;
+}
+sl-dialog.CrThDefinition::part(panel) {
+  background-color: #F9B938;
+}
+sl-dialog.PrSoDefinition::part(panel) {
+  background-color: #F9B938;
+}
+sl-dialog.CreativityFunFacts::part(panel) {
+  background-color: #27F2B3;
+}
+sl-dialog.CreativeThinkingFunFacts::part(panel) {
+  background-color: #27F2B3;
+}
+sl-dialog.ProblemSolvingFunFacts::part(panel) {
+  background-color: #27F2B3;
+}
+/*Carousel Stylings*/
+sl-dialog.PromptsChallenges::part(panel) {
+  background-color: #DDD245; 
+}
+sl-button.Open::part(base) {
+  border-color: #172321;
+  background-color: #172321;
+}
+sl-button.Open2::part(base) {
+  border-color: #DDD245;
+  background-color: #DDD245;
+}
+sl-carousel.carousel-thumbnails::part(base){
+  background-color: #27F2B3;
+  
+}
+sl-carousel.PC::part(base) {
+  background-color: #DDD245;
+  padding: 3px;
+}
+/*Tooltip Stylings*/
+sl-tooltip::part(body) {
+  background-color: #F9B938;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #14322F;
+}
+sl-button.Open::part(base) {
+  border-color: #172321;
+  background-color: #172321;
+}

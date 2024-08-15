@@ -112,6 +112,11 @@ h4 {
     width: 80%;
     height: 100%;
   } 
+  .item7 {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 2;
+    scale: 80%;
+  } 
 /*Dialog Stylings*/
 sl-dialog.CreativityDefinition::part(panel) {
 background-color: #F9B938;

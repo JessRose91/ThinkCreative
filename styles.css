@@ -16,7 +16,9 @@ h1 {
   font-family: "Bubblegum";
   color: #14322F;
   font-size: 25px;
+  letter-spacing: 3px;
 }
+
 h2 {
   font-family: 'Times New Roman', Times, serif;
   color: #DDD245;
@@ -65,6 +67,7 @@ h4 {
   color: #14322F;
   font-size: 19px;
 }
+
 /*App Navigation*/
   .view {
     display: grid;
@@ -117,7 +120,11 @@ h4 {
     grid-row: 3 / span 2;
     scale: 80%;
   } 
+
 /*Dialog Stylings*/
+sl-dialog.ExamplesGallery::part(panel) {
+  background-color: #DDD245;
+}
 sl-dialog.CreativityDefinition::part(panel) {
 background-color: #F9B938;
 }
@@ -134,6 +141,12 @@ sl-dialog.CreativeThinkingFunFacts::part(panel) {
   background-color: #27F2B3;
 }
 sl-dialog.ProblemSolvingFunFacts::part(panel) {
+  background-color: #27F2B3;
+}
+sl-dialog.CreativeThinkingHintsTips::part(panel) {
+  background-color: #27F2B3;
+}
+sl-dialog.ProblemSolvingHintsTips::part(panel) {
   background-color: #27F2B3;
 }
 /*Carousel Stylings*/

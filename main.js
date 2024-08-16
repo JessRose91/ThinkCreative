@@ -1,3 +1,7 @@
+/*HOMEVIEW EXAMPLES GALLERY*/
+const dialogEg = document.querySelector('.ExamplesGallery');
+const ExGall = document.getElementById('OpenExamples');
+ExGall.addEventListener('click', () => dialogEg.show());
 /*DEFINITIONS OF CREATIVITY, CREATIVE THINKING, AND PROBLEM SOLVING */
 /*Creativity*/
 const dialogCr = document.querySelector('.CreativityDefinition');
@@ -25,6 +29,16 @@ CreaThinkFunFacts.addEventListener('click', () => dialogCtFf.show());
 const dialogPsFf = document.querySelector('.ProblemSolvingFunFacts');
 const ProSoFunFacts = document.getElementById('OpenPsFf');
 ProSoFunFacts.addEventListener('click', () => dialogPsFf.show());
+
+/*HINTS AND TIPS FOR CREATIVE THINKING AND PROBLEM SOLVING*/
+/*Creative Thinking*/
+const dialogCtHt = document.querySelector('.CreativeThinkingHintsTips');
+const CreaThinkHintTip = document.getElementById('OpenCtHt');
+CreaThinkHintTip.addEventListener('click', () => dialogCtHt.show());
+/*Problem Solving*/
+const dialogPsHt = document.querySelector('.ProblemSolvingHintsTips');
+const ProSoHintTip = document.getElementById('OpenPsHt');
+ProSoHintTip.addEventListener('click', () => dialogPsHt.show());
 
 /*CREATIVITY VIEW: PROMPTS AND CHALLENGES*/
 const dialogPrCh = document.querySelector('.PromptsChallenges');

@@ -18,7 +18,9 @@ h1 {
   font-size: 25px;
   letter-spacing: 3px;
 }
-
+.ProDialog {
+  color: #F9B938;
+}
 h2 {
   font-family: 'Times New Roman', Times, serif;
   color: #DDD245;
@@ -120,6 +122,9 @@ h4 {
     grid-row: 3 / span 2;
     scale: 80%;
   } 
+  .pocessImg {
+    padding: 6px;
+  }
 
 /*Dialog Stylings*/
 sl-dialog.ExamplesGallery::part(panel) {
@@ -149,6 +154,25 @@ sl-dialog.CreativeThinkingHintsTips::part(panel) {
 sl-dialog.ProblemSolvingHintsTips::part(panel) {
   background-color: #27F2B3;
 }
+sl-dialog.CreativityProcesses::part(panel) {
+  background-color: #172321;
+}
+sl-dialog.CreativityProcesses::part(header) {
+  height: 28px;
+}
+sl-dialog.CreativeThinkingProcesses::part(panel) {
+  background-color: #172321;
+}
+sl-dialog.CreativeThinkingProcesses::part(header) {
+  height: 28px;
+}
+sl-dialog.ProblemSolvingProcesses::part(panel) {
+    background-color: #172321;
+}
+sl-dialog.ProblemSolvingProcesses::part(header) {
+    height: 28px;
+}
+
 /*Carousel Stylings*/
 sl-dialog.PromptsChallenges::part(panel) {
   background-color: #DDD245; 
@@ -161,13 +185,14 @@ sl-button.Open2::part(base) {
   border-color: #DDD245;
   background-color: #DDD245;
 }
-sl-carousel.carousel-thumbnails::part(base){
-  background-color: #27F2B3;
-  
-}
+
 sl-carousel.PC::part(base) {
   background-color: #DDD245;
   padding: 3px;
+}
+sl-carousel.carousel-thumbnails::part(base) {
+  background-color: #27F2B3;
+  padding-bottom: 3px; 
 }
 /*Tooltip Stylings*/
 sl-tooltip::part(body) {

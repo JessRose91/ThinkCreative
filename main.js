@@ -30,6 +30,20 @@ const dialogPsFf = document.querySelector('.ProblemSolvingFunFacts');
 const ProSoFunFacts = document.getElementById('OpenPsFf');
 ProSoFunFacts.addEventListener('click', () => dialogPsFf.show());
 
+/*PROCESSES FOR CREATIVITY, CREATIVE THINKING, AND PROBLEM SOLVING*/
+/*creativity*/
+const dialogCrP = document.querySelector('.CreativityProcesses');
+const CreatPro = document.getElementById('OpenCrP');
+CreatPro.addEventListener('click', () => dialogCrP.show());
+/*Creative Thinking*/
+const dialogCtP = document.querySelector('.CreativeThinkingProcesses');
+const CreatTPro = document.getElementById('OpenCtP');
+CreatTPro.addEventListener('click', () => dialogCtP.show());
+/*Problem Solving*/
+const dialogPsP = document.querySelector('.ProblemSolvingProcesses');
+const ProSoPro = document.getElementById('OpenPsP');
+ProSoPro.addEventListener('click', () => dialogPsP.show());
+
 /*HINTS AND TIPS FOR CREATIVE THINKING AND PROBLEM SOLVING*/
 /*Creative Thinking*/
 const dialogCtHt = document.querySelector('.CreativeThinkingHintsTips');

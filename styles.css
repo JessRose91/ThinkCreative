@@ -262,4 +262,63 @@ sl-button.Open::part(base) {
   letter-spacing: 3px;
 }
 
+/* ==========RESPONSIVE DESIGN============= */
 
+/* ===== DESKTOP HD: Media queries for most HD desktops ===== */
+@media only screen and (max-width: 1920px) { 
+  
+}
+
+/* ===== SMALL DESKTOP: Media queries for laptop/small desktop ===== */
+@media only screen and (max-width: 1366px) { 
+}
+
+/* ===== TABLET: Media queries for horizontal ===== */
+@media only screen and (max-width: 1024px) { 
+  .view {
+    Scale: 60%;
+  
+  }
+  .Gal1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .ExamplesGallery {
+    text-align: center;
+  }
+  .Cog {
+  display: none;
+  }
+  #Layer_2 {
+    scale: 50%;
+    opacity: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) { 
+  .view {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    Scale: 100%;
+  }
+  .Gal1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .ExamplesGallery {
+    text-align: center;
+  }
+  .Cog {
+  display: none;
+  }
+  .Layer_2 {
+    scale: 50%;
+  }
+  
+}

@@ -125,6 +125,29 @@ h4 {
   .pocessImg {
     padding: 6px;
   }
+  .Cog {
+    margin: 5% 30%;
+    width: 30%;
+  }
+/*Transitions and Animations*/
+.navbutton {
+  transition: all 3s ease-out;
+}
+.Open, .PC {
+  transition: all 2s ease-out;
+}
+.Open:hover {
+  transform: scale(1.1) translateY(20px);
+}
+
+.navbutton:hover {
+  transform: scale(1.1) rotate(360deg) translateY(20px);
+}
+
+.PC:hover {
+  transform: scale(1.1) translateY(20px);
+}
+
 
 /*Dialog Stylings*/
 sl-dialog.ExamplesGallery::part(panel) {
@@ -204,4 +227,30 @@ sl-tooltip::part(body) {
 sl-button.Open::part(base) {
   border-color: #172321;
   background-color: #172321;
+}
+/*Scrolling*/
+svg {
+  position: fixed;
+  top: 55%;
+  left: 60%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 30%;
+
+  animation: rotate 4s linear infinite;
+  animation-play-state: running;
+  animation-delay: calc(var(--scroll) * -1s);
+
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  min-height: 500vh;
 }

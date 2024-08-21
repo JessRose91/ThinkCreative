@@ -11,11 +11,11 @@
 <!--1st Section/Homeview with Experimental Navigation--------------------------->
     <div class="view">
         <div class="grid-item item1">
-           <img src="Images/Nav/CreativityNav.png"
+            <img class="navbutton" src="Images/Nav/CreativityNav.png"
             alt="Ice blue cog with the word creativitiy in the centre.">
         </div>
         <div class="grid-item item2">
-            <img src="Images/Nav/ProblemSolvingNav.png"
+            <img class="navbutton" src="Images/Nav/ProblemSolvingNav.png"
             alt="Yellow cog with the words problem-solving in the centre.">
         </div>  
         <div class="grid-item item3">
@@ -23,7 +23,7 @@
             alt="Lightbulb attached to a brain filled with cogs.">
         </div> 
         <div class="grid-item item4">
-            <img src="Images/Nav/CreativeThinkingNav.png"
+            <img class="navbutton" src="Images/Nav/CreativeThinkingNav.png"
             alt="Yellow Green cog with the words creative thinking in the centre.">
         </div>
         <div class="grid-item item5">
@@ -189,7 +189,7 @@
 </div>
 <!--2nd Section/Creativity------------------------------------------------------>
 <div class="view">
-    <sl-dialog class="CreativityDefinition" style="--width:50vw;">
+    <sl-dialog class="navbutton CreativityDefinition" style="--width:50vw;">
         <h1>Creativity Definition</h1>
         <p class="defRef">Synthesised from: Oxford Learners Dictionary, American Psychology Association.</p>
         <p class="def">Creativity is the ability to go beyond the ordinary to produce or develop original work, theories, 
@@ -202,27 +202,41 @@
         alt="Yellow lighbulb with the word Definition in the centre.">
         </sl-button>
     </div>
-    <sl-dialog class="CreativityFunFacts" style="--width: 60vw;">
+    <sl-dialog class="navbutton CreativityFunFacts" style="--width: 60vw;">
         <h1>Creativity Fun Facts</h1>
         <p class="def">1: Creativity is not something you just have or not; creativity can be learned, practised, and nurtured. 
         It is something you can continue to improve on.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">2: Creativity is driven by curiosity and exploration.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">3: Creativity is subjective based on unique perspectives and experiences shaping the individual's creative 
         expressions, resulting in a diverse range of creative outputs. What is considered creative can change from person to person.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">4: Our environments can have a huge impact on our creativity. Well-designed spaces with adequate lighting and 
         comfort can stimulate creative thinking. As can colours, sounds, and smells.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">5: Our moods and emotions can affect our creativity. Positive emotions can enhance creativity, but our more 
         challenging and difficult emotions can inspire them. So, try to be creative even if you are upset or angry.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">6: Creativity is a risk-taking activity. Embracing uncertainty and being willing to make mistakes can 
         lead to breakthrough ideas and innovative solutions.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">7: Creativity is needed for progress and innovation. Without creativity, our world and lives would be vastly different.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
+        <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.64 108.05">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #807d20;
+                }
+              </style>
+            </defs>
+            <g id="evC9YaPwKAS1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+              <g id="evC9YaPwKAS2">
+                <path class="cls-1" d="M44.98,8.3c-2.73.55-5.37,1.33-7.9,2.33l-3.98-6.8-14.02,8.13,4.17,7.12c-2.06,1.81-3.95,3.8-5.67,5.94l-6.89-3.91-8.05,14.01,7.18,4.08c-.86,2.57-1.51,5.23-1.92,7.97l-7.91.03.07,16.14,8.28-.03c.56,2.71,1.34,5.34,2.34,7.86l-6.83,3.96,8.17,13.94,7.16-4.15c1.82,2.05,3.82,3.94,5.98,5.63l-3.94,6.84,14.09,8.01,4.1-7.14c2.58.86,5.26,1.5,8.01,1.9l.03,7.87,16.23-.07-.03-8.23c2.73-.55,5.37-1.33,7.9-2.33l3.98,6.8,14.02-8.13-4.17-7.12c2.06-1.81,3.95-3.8,5.67-5.94l6.89,3.91,8.06-14.02-7.18-4.08c.86-2.56,1.51-5.23,1.92-7.97l7.91-.03-.07-16.14-8.28.04c-.55-2.71-1.34-5.34-2.34-7.86l6.84-3.96-8.17-13.94-7.15,4.15c-1.83-2.05-3.82-3.94-5.97-5.64l3.92-6.84-14.09-8.01-4.11,7.15c-2.58-.86-5.26-1.5-8.01-1.9l-.03-7.87-16.23.07.03,8.24s0,0,0,0ZM90.31,49.57h-19.41c-.1-.35-.21-.69-.32-1.03-.96-2.77-2.64-5.26-4.85-7.23-1.16-1.02-2.46-1.9-3.89-2.6-.96-.47-1.97-.85-3.04-1.14v-19.35c7.93.97,15.28,4.49,21.05,10.19,5.84,5.77,9.47,13.15,10.45,21.16,0,0,0,0,0,0ZM41.18,51.36c.12-.61.3-1.22.49-1.79,1.36-3.87,4.42-6.79,8.16-8.08,2.2-.77,4.63-.97,7.09-.47.65.13,1.27.3,1.87.52,3.84,1.37,6.76,4.37,8.1,8.03.75,2.04,1,4.29.65,6.56-.02.18-.06.38-.09.56-.12.61-.29,1.22-.49,1.79-1.36,3.86-4.41,6.79-8.16,8.08-2.2.76-4.63.97-7.09.48-.65-.13-1.28-.31-1.87-.53-3.84-1.37-6.76-4.37-8.1-8.03-.75-2.05-1-4.29-.65-6.56.02-.18.07-.37.1-.56,0,0,0,0,0,0ZM58.8,89.82v-19.29c.39-.1.77-.22,1.14-.34,2.79-.94,5.29-2.59,7.25-4.77,1.03-1.14,1.9-2.42,2.6-3.84.48-.97.87-2.01,1.15-3.09h19.36c-.97,7.89-4.51,15.2-10.24,20.94-5.79,5.81-13.22,9.42-21.26,10.4h0ZM18.34,58.48h19.41c.1.34.21.69.32,1.02.97,2.77,2.64,5.27,4.85,7.23,1.16,1.03,2.46,1.91,3.89,2.6.96.47,1.98.85,3.04,1.14v19.35c-7.93-.96-15.28-4.49-21.05-10.18-5.84-5.77-9.47-13.16-10.45-21.16,0,0,0,0,0,0ZM49.84,18.23v19.29c-.39.1-.77.22-1.14.34-2.79.94-5.29,2.59-7.25,4.77-1.03,1.14-1.91,2.43-2.6,3.84-.48.98-.86,2.01-1.15,3.09h-19.36c.97-7.89,4.51-15.2,10.24-20.94,5.79-5.81,13.22-9.42,21.26-10.4Z"/>
+              </g>
+            </g>
+          </svg>
     </sl-dialog>
     <div class="grid-item item2">
         <sl-button class="Open"><img id="OpenCrFf" src="Images/Nav/FunFactsNav.png"
@@ -230,10 +244,10 @@
         </sl-button>
     </div>  
     <div class="grid-item item3">
-        <img src="Images/Nav/LogoForCreativity.png"
+       <img src="Images/Nav/LogoForCreativity.png"
         alt="Lightbulb attached to a brain filled with cogs and creativity icon.">
     </div>
-    <sl-dialog class="CreativityProcesses" style="--width: 60vw;">
+    <sl-dialog class="navbutton CreativityProcesses" style="--width: 60vw;">
         <h1 class="ProDialog">Creativity Processes</h1>
         <h2 class="contact">Creativity Process 1: Graham Wallas' Creative Process.</h2> 
         <sl-carousel class="carousel-thumbnails" loop navigation pagination>
@@ -561,21 +575,35 @@
     <sl-dialog class="CreativeThinkingFunFacts" style="--width: 60vw;">
         <h1>Creative Thinking Fun Facts</h1>
         <p class="def">1: 72% of people have their creative insights while showering.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">2: Trying new things makes you more creative, so why not try something new?</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">3: Positivity enhances creativity, so think positively.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">4: Stress is bad for creativity.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">5: Creative thinking incorporates many attributes: fluency, flexibility, originality, 
         sensitivity to problems, and the ability to transform the known.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">6: Regarding creative thinking, there is no right or wrong answer, no definitive 
         right answer, and no failure.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">7: Sleep is beneficial for creative thought. So, make sure you get enough.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+       <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
+        <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.64 108.05">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #807d20;
+                }
+              </style>
+            </defs>
+            <g id="evC9YaPwKAS1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+              <g id="evC9YaPwKAS2">
+                <path class="cls-1" d="M44.98,8.3c-2.73.55-5.37,1.33-7.9,2.33l-3.98-6.8-14.02,8.13,4.17,7.12c-2.06,1.81-3.95,3.8-5.67,5.94l-6.89-3.91-8.05,14.01,7.18,4.08c-.86,2.57-1.51,5.23-1.92,7.97l-7.91.03.07,16.14,8.28-.03c.56,2.71,1.34,5.34,2.34,7.86l-6.83,3.96,8.17,13.94,7.16-4.15c1.82,2.05,3.82,3.94,5.98,5.63l-3.94,6.84,14.09,8.01,4.1-7.14c2.58.86,5.26,1.5,8.01,1.9l.03,7.87,16.23-.07-.03-8.23c2.73-.55,5.37-1.33,7.9-2.33l3.98,6.8,14.02-8.13-4.17-7.12c2.06-1.81,3.95-3.8,5.67-5.94l6.89,3.91,8.06-14.02-7.18-4.08c.86-2.56,1.51-5.23,1.92-7.97l7.91-.03-.07-16.14-8.28.04c-.55-2.71-1.34-5.34-2.34-7.86l6.84-3.96-8.17-13.94-7.15,4.15c-1.83-2.05-3.82-3.94-5.97-5.64l3.92-6.84-14.09-8.01-4.11,7.15c-2.58-.86-5.26-1.5-8.01-1.9l-.03-7.87-16.23.07.03,8.24s0,0,0,0ZM90.31,49.57h-19.41c-.1-.35-.21-.69-.32-1.03-.96-2.77-2.64-5.26-4.85-7.23-1.16-1.02-2.46-1.9-3.89-2.6-.96-.47-1.97-.85-3.04-1.14v-19.35c7.93.97,15.28,4.49,21.05,10.19,5.84,5.77,9.47,13.15,10.45,21.16,0,0,0,0,0,0ZM41.18,51.36c.12-.61.3-1.22.49-1.79,1.36-3.87,4.42-6.79,8.16-8.08,2.2-.77,4.63-.97,7.09-.47.65.13,1.27.3,1.87.52,3.84,1.37,6.76,4.37,8.1,8.03.75,2.04,1,4.29.65,6.56-.02.18-.06.38-.09.56-.12.61-.29,1.22-.49,1.79-1.36,3.86-4.41,6.79-8.16,8.08-2.2.76-4.63.97-7.09.48-.65-.13-1.28-.31-1.87-.53-3.84-1.37-6.76-4.37-8.1-8.03-.75-2.05-1-4.29-.65-6.56.02-.18.07-.37.1-.56,0,0,0,0,0,0ZM58.8,89.82v-19.29c.39-.1.77-.22,1.14-.34,2.79-.94,5.29-2.59,7.25-4.77,1.03-1.14,1.9-2.42,2.6-3.84.48-.97.87-2.01,1.15-3.09h19.36c-.97,7.89-4.51,15.2-10.24,20.94-5.79,5.81-13.22,9.42-21.26,10.4h0ZM18.34,58.48h19.41c.1.34.21.69.32,1.02.97,2.77,2.64,5.27,4.85,7.23,1.16,1.03,2.46,1.91,3.89,2.6.96.47,1.98.85,3.04,1.14v19.35c-7.93-.96-15.28-4.49-21.05-10.18-5.84-5.77-9.47-13.16-10.45-21.16,0,0,0,0,0,0ZM49.84,18.23v19.29c-.39.1-.77.22-1.14.34-2.79.94-5.29,2.59-7.25,4.77-1.03,1.14-1.91,2.43-2.6,3.84-.48.98-.86,2.01-1.15,3.09h-19.36c.97-7.89,4.51-15.2,10.24-20.94,5.79-5.81,13.22-9.42,21.26-10.4Z"/>
+              </g>
+            </g>
+          </svg>
     </sl-dialog>
     <div class="grid-item item2">
         <sl-button class="Open"><img id="OpenCtFf" src="Images/Nav/FunFactsNav.png"
@@ -814,42 +842,56 @@
         <sl-Button class="Open"><p class="quote">An essential aspect of creativity is not being afraid to fail.</p>
         </sl-Button>
         </sl-tooltip>
-        <p class="def2">1: Ask questions and challenge any assumptions and existing norms by asking what-ifs, 
+        <p class="def">1: Ask questions and challenge any assumptions and existing norms by asking what-ifs, 
         how, why, can it/I, and allowing yourself to explore new possibilities. Asking such questions can help 
         you connect thoughts and ideas and think differently.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">2: Seek new perspectives and seek out differing viewpoints and ways of thinking and doing 
         by exposing yourself to various cultures, disciplines, and interests. Broaden your horizons and 
         improve your ability to think creatively.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">3: Allow free thinking and mind wandering. Don't let yourself be restricted in your thoughts 
         and ideas. The sky is the limit, so let the brain juices flow. Set aside time regularly to allow your mind 
         to wander, brainstorm and encourage free thinking, and doodle or write anything you want on paper to train your imagination.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">4: Take time, where possible, to bounce your ideas off others and gain their perspectives and ideas; 
         they will likely think of something you haven't.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">5: Take regular breaks; take a breather when you feel stuck with an idea. Forcing yourself to find a 
         solution will lead to exhaustion and burnout. Try going for a walk outside, grab a coffee or something to eat, talk 
         to people and/or just look at the scenery around you. Remember, some inspirations will strike you at unexpected times and places.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">6: Take risks; while this can be a double-edged sword, risks allow you to think out of the box, look for 
         unconventional ideas and embrace the differences.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">7: Find or create opportunities to stimulate your brain with new experiences. Go to an art gallery or museum, 
         go to a new part of your neighbourhood, go into an eatery you have never been to before, go see a performance, go into a 
         shop/window shop at a shop you would normally go into, listen to new music/music you would normally listen to or any new experiences you can think of.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">8: Unlock and embrace your inner child; step into pretend mode and participate in world-building (dreaming up entirely new worlds) 
         and perspective-shifting (thinking like another). The goal is to embrace openness toward new ideas and uncharted territory and think like an 
         adventure-seeking kid again.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">9: Take notes; inspiration and creative thought can strike at the most random times. When it strikes, 
         whether on paper or a phone app, jot the thought or idea down; otherwise, you may forget and not get it back.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">10: Keep a journal or scrapbook of inspirations; include images, little doodles, mark-making, and sketches of 
         any ideas where applicable and note any relevant emotions/feelings at the time, too.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
+        <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.64 108.05">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #807d20;
+                }
+              </style>
+            </defs>
+            <g id="evC9YaPwKAS1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+              <g id="evC9YaPwKAS2">
+                <path class="cls-1" d="M44.98,8.3c-2.73.55-5.37,1.33-7.9,2.33l-3.98-6.8-14.02,8.13,4.17,7.12c-2.06,1.81-3.95,3.8-5.67,5.94l-6.89-3.91-8.05,14.01,7.18,4.08c-.86,2.57-1.51,5.23-1.92,7.97l-7.91.03.07,16.14,8.28-.03c.56,2.71,1.34,5.34,2.34,7.86l-6.83,3.96,8.17,13.94,7.16-4.15c1.82,2.05,3.82,3.94,5.98,5.63l-3.94,6.84,14.09,8.01,4.1-7.14c2.58.86,5.26,1.5,8.01,1.9l.03,7.87,16.23-.07-.03-8.23c2.73-.55,5.37-1.33,7.9-2.33l3.98,6.8,14.02-8.13-4.17-7.12c2.06-1.81,3.95-3.8,5.67-5.94l6.89,3.91,8.06-14.02-7.18-4.08c.86-2.56,1.51-5.23,1.92-7.97l7.91-.03-.07-16.14-8.28.04c-.55-2.71-1.34-5.34-2.34-7.86l6.84-3.96-8.17-13.94-7.15,4.15c-1.83-2.05-3.82-3.94-5.97-5.64l3.92-6.84-14.09-8.01-4.11,7.15c-2.58-.86-5.26-1.5-8.01-1.9l-.03-7.87-16.23.07.03,8.24s0,0,0,0ZM90.31,49.57h-19.41c-.1-.35-.21-.69-.32-1.03-.96-2.77-2.64-5.26-4.85-7.23-1.16-1.02-2.46-1.9-3.89-2.6-.96-.47-1.97-.85-3.04-1.14v-19.35c7.93.97,15.28,4.49,21.05,10.19,5.84,5.77,9.47,13.15,10.45,21.16,0,0,0,0,0,0ZM41.18,51.36c.12-.61.3-1.22.49-1.79,1.36-3.87,4.42-6.79,8.16-8.08,2.2-.77,4.63-.97,7.09-.47.65.13,1.27.3,1.87.52,3.84,1.37,6.76,4.37,8.1,8.03.75,2.04,1,4.29.65,6.56-.02.18-.06.38-.09.56-.12.61-.29,1.22-.49,1.79-1.36,3.86-4.41,6.79-8.16,8.08-2.2.76-4.63.97-7.09.48-.65-.13-1.28-.31-1.87-.53-3.84-1.37-6.76-4.37-8.1-8.03-.75-2.05-1-4.29-.65-6.56.02-.18.07-.37.1-.56,0,0,0,0,0,0ZM58.8,89.82v-19.29c.39-.1.77-.22,1.14-.34,2.79-.94,5.29-2.59,7.25-4.77,1.03-1.14,1.9-2.42,2.6-3.84.48-.97.87-2.01,1.15-3.09h19.36c-.97,7.89-4.51,15.2-10.24,20.94-5.79,5.81-13.22,9.42-21.26,10.4h0ZM18.34,58.48h19.41c.1.34.21.69.32,1.02.97,2.77,2.64,5.27,4.85,7.23,1.16,1.03,2.46,1.91,3.89,2.6.96.47,1.98.85,3.04,1.14v19.35c-7.93-.96-15.28-4.49-21.05-10.18-5.84-5.77-9.47-13.16-10.45-21.16,0,0,0,0,0,0ZM49.84,18.23v19.29c-.39.1-.77.22-1.14.34-2.79.94-5.29,2.59-7.25,4.77-1.03,1.14-1.91,2.43-2.6,3.84-.48.98-.86,2.01-1.15,3.09h-19.36c.97-7.89,4.51-15.2,10.24-20.94,5.79-5.81,13.22-9.42,21.26-10.4Z"/>
+              </g>
+            </g>
+          </svg>
     </sl-dialog>
     <div class="grid-item item7">
         <sl-button class="Open"><img id="OpenCtHt" src="Images/Nav/HintTipNav.png"
@@ -879,20 +921,34 @@
     <sl-dialog class="ProblemSolvingFunFacts" style="--width: 60vw;">
         <h1>Problem Solving Fun Facts</h1>
         <p class="def">1: Problem-solving fosters critical thinking and creativity.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">2: Solving problems increases resourcefulness.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">3: Problem-solving can be fun.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">4: We can never solve every problem, more arise every day.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">5: Solving problems helps us grow.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">6: Every problem can have many different solutions. Some are just 
         more effective than others.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">7: Not every problem can be solved perfectly, and that is Ok.</p>
-        <img src="Images/Nav/FunFactsAndProcesses.png" alt="row of alternating cogs and lighbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
+        <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.64 108.05">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #807d20;
+                }
+              </style>
+            </defs>
+            <g id="evC9YaPwKAS1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+              <g id="evC9YaPwKAS2">
+                <path class="cls-1" d="M44.98,8.3c-2.73.55-5.37,1.33-7.9,2.33l-3.98-6.8-14.02,8.13,4.17,7.12c-2.06,1.81-3.95,3.8-5.67,5.94l-6.89-3.91-8.05,14.01,7.18,4.08c-.86,2.57-1.51,5.23-1.92,7.97l-7.91.03.07,16.14,8.28-.03c.56,2.71,1.34,5.34,2.34,7.86l-6.83,3.96,8.17,13.94,7.16-4.15c1.82,2.05,3.82,3.94,5.98,5.63l-3.94,6.84,14.09,8.01,4.1-7.14c2.58.86,5.26,1.5,8.01,1.9l.03,7.87,16.23-.07-.03-8.23c2.73-.55,5.37-1.33,7.9-2.33l3.98,6.8,14.02-8.13-4.17-7.12c2.06-1.81,3.95-3.8,5.67-5.94l6.89,3.91,8.06-14.02-7.18-4.08c.86-2.56,1.51-5.23,1.92-7.97l7.91-.03-.07-16.14-8.28.04c-.55-2.71-1.34-5.34-2.34-7.86l6.84-3.96-8.17-13.94-7.15,4.15c-1.83-2.05-3.82-3.94-5.97-5.64l3.92-6.84-14.09-8.01-4.11,7.15c-2.58-.86-5.26-1.5-8.01-1.9l-.03-7.87-16.23.07.03,8.24s0,0,0,0ZM90.31,49.57h-19.41c-.1-.35-.21-.69-.32-1.03-.96-2.77-2.64-5.26-4.85-7.23-1.16-1.02-2.46-1.9-3.89-2.6-.96-.47-1.97-.85-3.04-1.14v-19.35c7.93.97,15.28,4.49,21.05,10.19,5.84,5.77,9.47,13.15,10.45,21.16,0,0,0,0,0,0ZM41.18,51.36c.12-.61.3-1.22.49-1.79,1.36-3.87,4.42-6.79,8.16-8.08,2.2-.77,4.63-.97,7.09-.47.65.13,1.27.3,1.87.52,3.84,1.37,6.76,4.37,8.1,8.03.75,2.04,1,4.29.65,6.56-.02.18-.06.38-.09.56-.12.61-.29,1.22-.49,1.79-1.36,3.86-4.41,6.79-8.16,8.08-2.2.76-4.63.97-7.09.48-.65-.13-1.28-.31-1.87-.53-3.84-1.37-6.76-4.37-8.1-8.03-.75-2.05-1-4.29-.65-6.56.02-.18.07-.37.1-.56,0,0,0,0,0,0ZM58.8,89.82v-19.29c.39-.1.77-.22,1.14-.34,2.79-.94,5.29-2.59,7.25-4.77,1.03-1.14,1.9-2.42,2.6-3.84.48-.97.87-2.01,1.15-3.09h19.36c-.97,7.89-4.51,15.2-10.24,20.94-5.79,5.81-13.22,9.42-21.26,10.4h0ZM18.34,58.48h19.41c.1.34.21.69.32,1.02.97,2.77,2.64,5.27,4.85,7.23,1.16,1.03,2.46,1.91,3.89,2.6.96.47,1.98.85,3.04,1.14v19.35c-7.93-.96-15.28-4.49-21.05-10.18-5.84-5.77-9.47-13.16-10.45-21.16,0,0,0,0,0,0ZM49.84,18.23v19.29c-.39.1-.77.22-1.14.34-2.79.94-5.29,2.59-7.25,4.77-1.03,1.14-1.91,2.43-2.6,3.84-.48.98-.86,2.01-1.15,3.09h-19.36c.97-7.89,4.51-15.2,10.24-20.94,5.79-5.81,13.22-9.42,21.26-10.4Z"/>
+              </g>
+            </g>
+          </svg>
     </sl-dialog>
     <div class="grid-item item2">
         <sl-button class="Open"><img id="OpenPsFf" src="Images/Nav/FunFactsNav.png"
@@ -900,7 +956,7 @@
         </sl-button>
     </div>  
     <div class="grid-item item3">
-        <img src="Images/Nav/LogoForProblem.png"
+        <img id="CtView" src="Images/Nav/LogoForProblem.png"
         alt="Lightbulb attached to a brain filled with cogs and Problem Solving icon.">
     </div>
     <sl-dialog class="ProblemSolvingProcesses" style="--width: 60vw;">
@@ -1079,34 +1135,48 @@
             </sl-tooltip>
         <p class="def">1: Remain calm; don't panic or rush into deciding a solution. Take a breath and 
         consider the problem before moving on to the appropriate steps.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">2: Take time to break down and define the problem and what needs to be achieved by any 
         potential solutions; truly understand it.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">3: Seek out problem solving opportunities; put yourself into new situations; this will 
         more likely expose you to problems you can solve.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">4: Observe how other people solve problems; this can help develop your own skills, and if possible, 
         ask them relevant questions about their problem solving, like what brought you to this decision? Do you 
         have any other potential solutions? What is the initial problem?</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">5: Participate in/complete practice problems; ask others to design or find problems for you to come 
         up with potential solutions to, search online for problems, or complete the challenges here on Think Creative. 
         Practice different solutions you could implement and evaluate them.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">6: Document your processes and ideas; many can be solutions with the right refinement. Remember that if you 
         do when another problem arises, you may already have the solution or refinable options in your documentation.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">7: Explore the proven problem-solving processes available; some are available in Think Creatives processes, 
         and many are available online with a quick search. While not every process will solve every problem, they can steer you in 
         the right direction and provide helpful steps.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">8: Brainstorm all the ideas you can think of before judging, evaluating and refining. Just focus on generating lots of ideas first.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
         <p class="def">9: Consider utilising a decision matrix; if you have several possibly effective solutions, a decision matrix can help you 
         decide the best option. Define the considerations you need/ desire the solution to meet and list. Define a rating scale, i.e. 
         0 (not at all), 1 (not enough), 2 ( a little), 3 ( average), etc. The solution is the one that meets the highest score/best meets the consideration scale.</p>
-        <img src="Images/Nav/HintsanTipsBar.png" alt="row of alternating coloured lightbulbs">
+        <img class="Cog" src="Images/Nav/FunFactsAndProcesses.svg" alt="Green Spinning Cog">
+        <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.64 108.05">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #807d20;
+                }
+              </style>
+            </defs>
+            <g id="evC9YaPwKAS1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+              <g id="evC9YaPwKAS2">
+                <path class="cls-1" d="M44.98,8.3c-2.73.55-5.37,1.33-7.9,2.33l-3.98-6.8-14.02,8.13,4.17,7.12c-2.06,1.81-3.95,3.8-5.67,5.94l-6.89-3.91-8.05,14.01,7.18,4.08c-.86,2.57-1.51,5.23-1.92,7.97l-7.91.03.07,16.14,8.28-.03c.56,2.71,1.34,5.34,2.34,7.86l-6.83,3.96,8.17,13.94,7.16-4.15c1.82,2.05,3.82,3.94,5.98,5.63l-3.94,6.84,14.09,8.01,4.1-7.14c2.58.86,5.26,1.5,8.01,1.9l.03,7.87,16.23-.07-.03-8.23c2.73-.55,5.37-1.33,7.9-2.33l3.98,6.8,14.02-8.13-4.17-7.12c2.06-1.81,3.95-3.8,5.67-5.94l6.89,3.91,8.06-14.02-7.18-4.08c.86-2.56,1.51-5.23,1.92-7.97l7.91-.03-.07-16.14-8.28.04c-.55-2.71-1.34-5.34-2.34-7.86l6.84-3.96-8.17-13.94-7.15,4.15c-1.83-2.05-3.82-3.94-5.97-5.64l3.92-6.84-14.09-8.01-4.11,7.15c-2.58-.86-5.26-1.5-8.01-1.9l-.03-7.87-16.23.07.03,8.24s0,0,0,0ZM90.31,49.57h-19.41c-.1-.35-.21-.69-.32-1.03-.96-2.77-2.64-5.26-4.85-7.23-1.16-1.02-2.46-1.9-3.89-2.6-.96-.47-1.97-.85-3.04-1.14v-19.35c7.93.97,15.28,4.49,21.05,10.19,5.84,5.77,9.47,13.15,10.45,21.16,0,0,0,0,0,0ZM41.18,51.36c.12-.61.3-1.22.49-1.79,1.36-3.87,4.42-6.79,8.16-8.08,2.2-.77,4.63-.97,7.09-.47.65.13,1.27.3,1.87.52,3.84,1.37,6.76,4.37,8.1,8.03.75,2.04,1,4.29.65,6.56-.02.18-.06.38-.09.56-.12.61-.29,1.22-.49,1.79-1.36,3.86-4.41,6.79-8.16,8.08-2.2.76-4.63.97-7.09.48-.65-.13-1.28-.31-1.87-.53-3.84-1.37-6.76-4.37-8.1-8.03-.75-2.05-1-4.29-.65-6.56.02-.18.07-.37.1-.56,0,0,0,0,0,0ZM58.8,89.82v-19.29c.39-.1.77-.22,1.14-.34,2.79-.94,5.29-2.59,7.25-4.77,1.03-1.14,1.9-2.42,2.6-3.84.48-.97.87-2.01,1.15-3.09h19.36c-.97,7.89-4.51,15.2-10.24,20.94-5.79,5.81-13.22,9.42-21.26,10.4h0ZM18.34,58.48h19.41c.1.34.21.69.32,1.02.97,2.77,2.64,5.27,4.85,7.23,1.16,1.03,2.46,1.91,3.89,2.6.96.47,1.98.85,3.04,1.14v19.35c-7.93-.96-15.28-4.49-21.05-10.18-5.84-5.77-9.47-13.16-10.45-21.16,0,0,0,0,0,0ZM49.84,18.23v19.29c-.39.1-.77.22-1.14.34-2.79.94-5.29,2.59-7.25,4.77-1.03,1.14-1.91,2.43-2.6,3.84-.48.98-.86,2.01-1.15,3.09h-19.36c.97-7.89,4.51-15.2,10.24-20.94,5.79-5.81,13.22-9.42,21.26-10.4Z"/>
+              </g>
+            </g>
+          </svg>
     </sl-dialog>
     <div class="grid-item item7">
         <sl-button class="Open"><img id="OpenPsHt" src="Images/Nav/HintTipNav.png"
@@ -1116,7 +1186,8 @@
 
 <!--Script Tags-----------------------------------------------------------------> 
     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/shoelace-autoloader.js"></script>
-    <script src="fslightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

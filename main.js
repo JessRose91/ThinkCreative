@@ -15,7 +15,6 @@ CrThDef.addEventListener('click', () => dialogCt.show());
 const dialogPs = document.querySelector('.PrSoDefinition');
 const PrSoDef = document.getElementById('OpenPsDef');
 PrSoDef.addEventListener('click', () => dialogPs.show());
-
 /*FUN FACTS OF CREATIVITY, CREATIVE THINKING, AND PROBLEM SOLVING */
 /*Creativity*/
 const dialogCrFf = document.querySelector('.CreativityFunFacts');
@@ -126,3 +125,5 @@ CrPrChall17.addEventListener('click', () => dialogPrCh17.show());
 const dialogPrCh18 = document.querySelector('.PromptsChallenges18');
 const CrPrChall18 = document.getElementById('OpenPrCh18');
 CrPrChall18.addEventListener('click', () => dialogPrCh18.show());
+
+

@@ -174,13 +174,12 @@ body {
   min-height: 500vh;
 }
 
-
 /*Dialog Stylings*/
 sl-dialog.ExamplesGallery::part(panel) {
   background-color: #DDD245;
 }
 sl-dialog.CreativityDefinition::part(panel) {
-background-color: #F9B938;
+  background-color: #F9B938;
 }
 sl-dialog.CrThDefinition::part(panel) {
   background-color: #F9B938;
@@ -216,7 +215,7 @@ sl-dialog.CreativeThinkingProcesses::part(header) {
   height: 28px;
 }
 sl-dialog.ProblemSolvingProcesses::part(panel) {
-    background-color: #172321;
+  background-color: #172321;
 }
 sl-dialog.ProblemSolvingProcesses::part(header) {
     height: 28px;
@@ -291,7 +290,7 @@ sl-button.Open::part(base) {
   .Cog {
   display: none;
   }
-  #Layer_2 {
+  .Layer_2 {
     scale: 50%;
     opacity: 30%;
   }
